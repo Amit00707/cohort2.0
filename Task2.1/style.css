@@ -1,0 +1,55 @@
+@font-face {
+    font-family: rock;
+    src: url(Rockybilly.ttf);
+}
+
+/* Make the video cover the full screen */
+    video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* ensures video fills the screen */
+      z-index: -1; /* keep it behind all other elements */
+    }
+
+    /* Content on top of the video */
+    .content {
+      position: relative;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      font-size: 2rem;
+
+    }
+
+    .content h1 {
+      font-size: 4rem;
+      font-family: rock;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .content p {
+      font-size: 1.5rem;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+      font-family: 'Courier New', Courier, monospace;
+    }
+    
+button {
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.377);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
