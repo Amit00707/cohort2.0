@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+#navbar {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#logo>h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'gilroy', sans-serif;
+
+}
+
+#mid a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.3s;
+    font-family: 'gilroy', sans-serif;
+}
+
+#mid a:hover {
+    color: rgba(0, 123, 255, 0.495);
+    text-decoration: underline;
+}
+
+#navbar #login {
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: rgb(4, 4, 4);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'gilroy', sans-serif;
+}
+
+#navbar #login:hover {
+    background-color: rgba(196, 221, 247, 0.495);
+    color: rgb(85, 82, 82);
+    text-decoration: underline;
+}
+
+#navbar #letstalk {
+    margin-right: 20px;
+    padding: 15px 20px;
+    border: none;
+    background-color: rgb(4, 4, 4);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 20px;
+
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'gilroy', sans-serif;
+}
+
+#navbar #letstalk .ri-arrow-right-up-line {
+    border-radius: 50%;
+    padding: 6px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(137, 195, 253);
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+#content {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#content #left img {
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+#content h1 {
+    font-size: 80px;
+    font-weight: 500;
+    color: black;
+    margin-left: 30px;
+    font-family: 'gilroy', sans-serif;
+}
+
+#content span {
+    display: flex;
+    align-items: center;
+
+    font-size: 80px;
+    font-weight: 500;
+    color: black;
+    margin-left: 10px;
+    font-family: 'gilroy', sans-serif;
+}
+
+#left .box {
+    width: 150px;
+    display: flex;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 30px;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.box h6 {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    margin-top: 15px;
+    font-family: 'gilroy', sans-serif;
+}
+
+.box i {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: 'gilroy', sans-serif;
+}
+#left #lbbutton {
+    display: flex;
+    gap: 20px;
+}
+
+
+#left #contactus {
+    margin-left: 30px;
+    padding: 15px 25px;
+    border: none;
+    background-color: rgb(4, 4, 4);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'gilroy', sans-serif;
+}
+
+#left #requestacall {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: rgb(4, 4, 4);
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'gilroy', sans-serif;
+    text-decoration: underline;
+}
+#left p{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(4, 4, 4);
+    font-family: 'gilroy', sans-serif;
+    width: 50%;
+    line-height: 1.5;
+}
+#left h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(4, 4, 4);
+    font-family: 'gilroy', sans-serif;
+    margin-left: 30px;
+    word-spacing: 10px;
+}
+#right {
+    width: 100%;
+    height: 110%;
+    overflow: hidden;
+}
+
+#right #top img {
+    width: 95%;
+    height: 30%;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+#rbuttom {
+    display: flex;
+}
+
+#right #rbuttom img {
+    width: 320px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 30px;
+    background-size: cover;
+
+}
+
